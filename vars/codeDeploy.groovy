@@ -1,3 +1,3 @@
-def call (String imageName,String tagName, Integer portLocal, Interger portContainer){
+def call (){
 sh "docker compose down && docker compose up --build"
 }
